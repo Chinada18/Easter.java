@@ -6,7 +6,8 @@ public class Easter{
     public static void main(String[] args) {
         //code goes here
         Scanner scanner = new Scanner(System.in); //this allows you to read input from the user.
-        int y = scanner.nextInt(); // reads the next number the user types. 
+        int y = 2026; // reads the next number the user types. 
+        // // reads the next number the user types. 
         int a = y % 19;
         int b = y / 100;
         int c = y % 100;
@@ -25,25 +26,8 @@ public class Easter{
         int month = n;
         int day = p + 1;
         
-        System.out.println("a = "+a);
-        System.out.println("a = " + a);
-        System.out.println("b = " + b);
-        System.out.println("c = " + c);
-        System.out.println("d = " + d);
-        System.out.println("e = " + e);
-        System.out.println("f = " + f);
-        System.out.println("g = " + g);
-        System.out.println("h = " + h);
-        System.out.println("i = " + i);
-        System.out.println("k = " + k);
-        System.out.println("r = " + r);
-        System.out.println("m = " + m);
-        System.out.println("n = " + n);
-        System.out.println("p = " + p);
-
-        
         scanner.close();
 
         System.out.println("Easter in " + y + " falls on " + month + "/" + day);
-    }
+         }
 }
